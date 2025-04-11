@@ -17,14 +17,7 @@ import { X, Upload, RefreshCw } from "lucide-react";
 
 import { useRouter } from "next/navigation";
 
-interface PredictionResultProps {
-  prediction: "real" | "fake";
-  confidence: number;
-  probabilities: {
-    fake: number;
-    real: number;
-  };
-}
+
 
 export default function ImageUploader() {
   const router = useRouter();

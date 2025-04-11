@@ -35,7 +35,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-gray-400 text-xl mb-8 max-w-2xl mx-auto"
           >
-            Spot deepfakes instantly using advanced image forensics and machine learning. Real-time image analysis to catch what the eyes can't.
+            Spot deepfakes instantly using advanced image forensics and machine learning. Real-time image analysis to catch what the eyes cant.
           </motion.p>
 
           <motion.div

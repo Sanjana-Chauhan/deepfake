@@ -1,8 +1,9 @@
 // app/verify/page.tsx
 
 import ImageUploader from "@/components/ImageUploader"
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Card, CardHeader, CardTitle } from "@/components/ui/card"
 import { SparklesCore } from "@/components/sparkles"
+import FloatingPaper from "@/components/floating-paper"
 
 export default function VerifyPage() {
   return (
@@ -18,6 +19,9 @@ export default function VerifyPage() {
                   particleColor="#FFFFFF"
                 />
               </div>
+              <div className="absolute inset-0 overflow-hidden">
+        <FloatingPaper count={6} />
+      </div>
       <div className=" w-1/2 relative z-10 bg-zinc-900/80  ">
         <Card className="border border-white w-full">
           <CardHeader className="text-center">
